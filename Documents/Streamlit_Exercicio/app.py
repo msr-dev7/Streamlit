@@ -19,7 +19,7 @@ dados = get_data('heart_disease')
 #Algumas colunas estão com espaço em branco no final do nome
 dados.rename(columns=lambda x: x.strip(), inplace=True)
 
-modelo = load_model('recursos/modelo-previsao-heart-disease')
+modelo = load_model('Documents/Streamlit_Exercicio/recursos/modelo-previsao-heart-disease')
 
 def trad(x):
 	return 'Masculino' if x == 1 else 'Feminino'
