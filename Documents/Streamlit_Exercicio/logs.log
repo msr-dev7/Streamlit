@@ -1,0 +1,2641 @@
+2023-12-01 18:21:46,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 18:21:46,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 18:21:46,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 18:21:46,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 18:21:47,031:INFO:Initializing load_model()
+2023-12-01 18:21:47,031:INFO:load_model(model_name=recursos/modelo-previsao-custos-seguro, platform=None, authentication=None, verbose=True)
+2023-12-01 18:23:58,912:INFO:Initializing load_model()
+2023-12-01 18:23:58,912:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 18:25:11,665:INFO:Initializing load_model()
+2023-12-01 18:25:11,671:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 18:26:29,496:INFO:Initializing load_model()
+2023-12-01 18:26:29,496:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:00:23,808:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:00:23,808:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:00:23,808:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:00:23,808:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:00:26,208:INFO:Initializing load_model()
+2023-12-01 19:00:26,208:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:01:30,564:INFO:Initializing load_model()
+2023-12-01 19:01:30,564:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:12:55,514:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:12:55,514:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:12:55,514:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:12:55,514:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:12:56,280:INFO:PyCaret ClassificationExperiment
+2023-12-01 19:12:56,280:INFO:Logging name: clf-default-name
+2023-12-01 19:12:56,280:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-12-01 19:12:56,280:INFO:version 3.2.0
+2023-12-01 19:12:56,280:INFO:Initializing setup()
+2023-12-01 19:12:56,280:INFO:self.USI: bc53
+2023-12-01 19:12:56,280:INFO:self._variable_keys: {'gpu_param', 'fold_groups_param', 'y', 'gpu_n_jobs_param', 'n_jobs_param', 'target_param', 'fold_shuffle_param', 'log_plots_param', 'y_train', 'exp_id', 'USI', 'seed', 'data', 'X', 'fold_generator', '_available_plots', 'pipeline', 'X_train', 'is_multiclass', 'y_test', 'memory', 'exp_name_log', 'logging_param', 'idx', 'X_test', 'fix_imbalance', '_ml_usecase', 'html_param'}
+2023-12-01 19:12:56,280:INFO:Checking environment
+2023-12-01 19:12:56,280:INFO:python_version: 3.9.18
+2023-12-01 19:12:56,280:INFO:python_build: ('main', 'Sep 11 2023 14:09:26')
+2023-12-01 19:12:56,280:INFO:machine: AMD64
+2023-12-01 19:12:56,330:INFO:platform: Windows-10-10.0.19045-SP0
+2023-12-01 19:12:56,330:INFO:Memory: svmem(total=17052696576, available=8445075456, percent=50.5, used=8607621120, free=8445075456)
+2023-12-01 19:12:56,330:INFO:Physical Core: 2
+2023-12-01 19:12:56,330:INFO:Logical Core: 4
+2023-12-01 19:12:56,330:INFO:Checking libraries
+2023-12-01 19:12:56,330:INFO:System:
+2023-12-01 19:12:56,330:INFO:    python: 3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)]
+2023-12-01 19:12:56,330:INFO:executable: C:\Users\Dell\anaconda3\envs\meu_env\python.exe
+2023-12-01 19:12:56,330:INFO:   machine: Windows-10-10.0.19045-SP0
+2023-12-01 19:12:56,330:INFO:PyCaret required dependencies:
+2023-12-01 19:12:56,380:INFO:                 pip: 23.3.1
+2023-12-01 19:12:56,380:INFO:          setuptools: 68.0.0
+2023-12-01 19:12:56,380:INFO:             pycaret: 3.2.0
+2023-12-01 19:12:56,380:INFO:             IPython: 8.18.1
+2023-12-01 19:12:56,380:INFO:          ipywidgets: 8.1.1
+2023-12-01 19:12:56,380:INFO:                tqdm: 4.66.1
+2023-12-01 19:12:56,380:INFO:               numpy: 1.25.2
+2023-12-01 19:12:56,380:INFO:              pandas: 1.3.3
+2023-12-01 19:12:56,380:INFO:              jinja2: 2.11.3
+2023-12-01 19:12:56,380:INFO:               scipy: 1.10.1
+2023-12-01 19:12:56,380:INFO:              joblib: 1.3.2
+2023-12-01 19:12:56,380:INFO:             sklearn: 1.2.2
+2023-12-01 19:12:56,380:INFO:                pyod: 1.1.2
+2023-12-01 19:12:56,380:INFO:            imblearn: 0.11.0
+2023-12-01 19:12:56,380:INFO:   category_encoders: 2.6.3
+2023-12-01 19:12:56,380:INFO:            lightgbm: 4.1.0
+2023-12-01 19:12:56,380:INFO:               numba: 0.58.1
+2023-12-01 19:12:56,380:INFO:            requests: 2.31.0
+2023-12-01 19:12:56,380:INFO:          matplotlib: 3.6.0
+2023-12-01 19:12:56,380:INFO:          scikitplot: 0.3.7
+2023-12-01 19:12:56,380:INFO:         yellowbrick: 1.5
+2023-12-01 19:12:56,380:INFO:              plotly: 5.6.0
+2023-12-01 19:12:56,380:INFO:    plotly-resampler: Not installed
+2023-12-01 19:12:56,380:INFO:             kaleido: 0.2.1
+2023-12-01 19:12:56,380:INFO:           schemdraw: 0.15
+2023-12-01 19:12:56,380:INFO:         statsmodels: 0.14.0
+2023-12-01 19:12:56,380:INFO:              sktime: 0.21.1
+2023-12-01 19:12:56,380:INFO:               tbats: 1.1.3
+2023-12-01 19:12:56,380:INFO:            pmdarima: 2.0.4
+2023-12-01 19:12:56,380:INFO:              psutil: 5.9.6
+2023-12-01 19:12:56,380:INFO:          markupsafe: 2.0.1
+2023-12-01 19:12:56,380:INFO:             pickle5: Not installed
+2023-12-01 19:12:56,380:INFO:         cloudpickle: 3.0.0
+2023-12-01 19:12:56,380:INFO:         deprecation: 2.1.0
+2023-12-01 19:12:56,380:INFO:              xxhash: 3.4.1
+2023-12-01 19:12:56,380:INFO:           wurlitzer: Not installed
+2023-12-01 19:12:56,380:INFO:PyCaret optional dependencies:
+2023-12-01 19:12:56,397:INFO:                shap: Not installed
+2023-12-01 19:12:56,397:INFO:           interpret: Not installed
+2023-12-01 19:12:56,397:INFO:                umap: Not installed
+2023-12-01 19:12:56,397:INFO:     ydata_profiling: Not installed
+2023-12-01 19:12:56,397:INFO:  explainerdashboard: Not installed
+2023-12-01 19:12:56,397:INFO:             autoviz: Not installed
+2023-12-01 19:12:56,397:INFO:           fairlearn: Not installed
+2023-12-01 19:12:56,397:INFO:          deepchecks: Not installed
+2023-12-01 19:12:56,397:INFO:             xgboost: Not installed
+2023-12-01 19:12:56,397:INFO:            catboost: Not installed
+2023-12-01 19:12:56,397:INFO:              kmodes: Not installed
+2023-12-01 19:12:56,397:INFO:             mlxtend: Not installed
+2023-12-01 19:12:56,397:INFO:       statsforecast: Not installed
+2023-12-01 19:12:56,397:INFO:        tune_sklearn: Not installed
+2023-12-01 19:12:56,397:INFO:                 ray: Not installed
+2023-12-01 19:12:56,397:INFO:            hyperopt: Not installed
+2023-12-01 19:12:56,397:INFO:              optuna: Not installed
+2023-12-01 19:12:56,397:INFO:               skopt: Not installed
+2023-12-01 19:12:56,397:INFO:              mlflow: Not installed
+2023-12-01 19:12:56,397:INFO:              gradio: Not installed
+2023-12-01 19:12:56,397:INFO:             fastapi: Not installed
+2023-12-01 19:12:56,397:INFO:             uvicorn: Not installed
+2023-12-01 19:12:56,397:INFO:              m2cgen: Not installed
+2023-12-01 19:12:56,397:INFO:           evidently: Not installed
+2023-12-01 19:12:56,397:INFO:               fugue: Not installed
+2023-12-01 19:12:56,397:INFO:           streamlit: 1.29.0
+2023-12-01 19:12:56,397:INFO:             prophet: Not installed
+2023-12-01 19:12:56,397:INFO:None
+2023-12-01 19:12:56,397:INFO:Set up data.
+2023-12-01 19:12:56,415:INFO:Set up folding strategy.
+2023-12-01 19:12:56,415:INFO:Set up train/test split.
+2023-12-01 19:12:56,430:INFO:Set up index.
+2023-12-01 19:12:56,447:INFO:Assigning column types.
+2023-12-01 19:12:56,447:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-12-01 19:12:56,631:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-12-01 19:12:56,647:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-12-01 19:12:56,747:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:56,747:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:56,848:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-12-01 19:12:56,848:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-12-01 19:12:56,914:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:56,914:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:56,914:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-12-01 19:12:56,981:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-12-01 19:12:57,047:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,047:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,181:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-12-01 19:12:57,230:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,230:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,230:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-12-01 19:12:57,448:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,448:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,613:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,613:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:57,630:INFO:Preparing preprocessing pipeline...
+2023-12-01 19:12:57,630:INFO:Set up simple imputation.
+2023-12-01 19:12:57,630:INFO:Set up encoding of ordinal features.
+2023-12-01 19:12:57,647:INFO:Set up encoding of categorical features.
+2023-12-01 19:12:57,647:INFO:Set up column name cleaning.
+2023-12-01 19:12:57,830:INFO:Finished creating preprocessing pipeline.
+2023-12-01 19:12:57,980:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\Dell\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer(add_indicator=Fa...
+                                    include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-12-01 19:12:57,980:INFO:Creating final display dataframe.
+2023-12-01 19:12:58,613:INFO:Setup _display_container:                     Description             Value
+0                    Session id                75
+1                        Target           Disease
+2                   Target type            Binary
+3           Original data shape         (270, 14)
+4        Transformed data shape         (270, 18)
+5   Transformed train set shape         (243, 18)
+6    Transformed test set shape          (27, 18)
+7               Ignore features                 1
+8              Ordinal features                 2
+9              Numeric features                 8
+10         Categorical features                 4
+11                   Preprocess              True
+12              Imputation type            simple
+13           Numeric imputation              mean
+14       Categorical imputation              mode
+15     Maximum one-hot encoding                25
+16              Encoding method              None
+17               Fold Generator   StratifiedKFold
+18                  Fold Number                10
+19                     CPU Jobs                -1
+20                      Use GPU             False
+21               Log Experiment             False
+22              Experiment Name  clf-default-name
+23                          USI              bc53
+2023-12-01 19:12:58,813:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:58,813:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:58,947:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:58,947:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-12-01 19:12:58,947:INFO:setup() successfully completed in 2.68s...............
+2023-12-01 19:12:58,947:INFO:Initializing create_model()
+2023-12-01 19:12:58,947:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000209ABEEFBB0>, estimator=lr, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2023-12-01 19:12:58,947:INFO:Checking exceptions
+2023-12-01 19:12:58,963:INFO:Importing libraries
+2023-12-01 19:12:58,963:INFO:Copying training dataset
+2023-12-01 19:12:58,963:INFO:Defining folds
+2023-12-01 19:12:58,963:INFO:Declaring metric variables
+2023-12-01 19:12:58,963:INFO:Importing untrained model
+2023-12-01 19:12:58,963:INFO:Logistic Regression Imported successfully
+2023-12-01 19:12:58,963:INFO:Starting cross validation
+2023-12-01 19:12:58,963:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-12-01 19:13:10,414:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:10,437:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:10,843:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:11,110:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:11,210:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:11,293:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:11,744:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:11,943:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:11,960:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:12,076:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:12,243:INFO:Calculating mean and std
+2023-12-01 19:13:12,243:INFO:Creating metrics dataframe
+2023-12-01 19:13:12,243:INFO:Finalizing model
+2023-12-01 19:13:12,926:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:12,943:INFO:Uploading results into container
+2023-12-01 19:13:12,943:INFO:Uploading model into container now
+2023-12-01 19:13:12,976:INFO:_master_model_container: 1
+2023-12-01 19:13:12,976:INFO:_display_container: 2
+2023-12-01 19:13:12,993:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-12-01 19:13:12,993:INFO:create_model() successfully completed......................................
+2023-12-01 19:13:13,093:INFO:Initializing tune_model()
+2023-12-01 19:13:13,093:INFO:tune_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Custo, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000209ABEEFBB0>)
+2023-12-01 19:13:13,093:INFO:Checking exceptions
+2023-12-01 19:13:13,110:INFO:Copying training dataset
+2023-12-01 19:13:13,110:INFO:Checking base model
+2023-12-01 19:13:13,110:INFO:Base model : Logistic Regression
+2023-12-01 19:13:13,110:INFO:Declaring metric variables
+2023-12-01 19:13:13,110:INFO:Defining Hyperparameters
+2023-12-01 19:13:13,209:INFO:Tuning with n_jobs=-1
+2023-12-01 19:13:13,209:INFO:Initializing RandomizedSearchCV
+2023-12-01 19:13:13,810:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:13,827:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:13,827:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:13,860:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:14,526:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:14,544:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:14,544:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:14,609:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:15,293:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:15,309:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:15,325:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:15,359:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,076:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,076:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,093:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,110:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,759:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,759:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,792:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:16,842:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:17,358:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:17,358:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:17,408:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:17,408:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:17,959:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:17,991:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:18,008:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:18,008:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:18,575:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:18,591:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:18,608:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:18,625:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,191:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,207:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,224:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,224:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,858:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,874:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,874:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:19,891:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:20,524:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:20,541:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:20,541:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:20,557:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,159:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,159:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,159:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,159:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,758:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,758:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,774:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:21,824:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:22,424:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:22,424:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:22,474:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:22,490:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:23,007:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:23,040:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:23,623:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:23,690:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:23,740:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:24,223:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:24,790:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:24,823:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:24,873:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:24,956:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:25,423:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:25,439:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:25,523:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:25,606:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,123:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,139:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,256:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,306:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,773:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,790:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:26,939:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:27,039:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:27,489:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:27,506:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:27,656:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:27,689:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:28,239:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:28,305:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:28,505:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:28,555:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,089:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,105:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,239:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,289:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,773:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,789:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:29,873:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:30,021:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:30,155:INFO:best_params: {'actual_estimator__class_weight': 'balanced', 'actual_estimator__C': 5.233000000000001}
+2023-12-01 19:13:30,155:INFO:Hyperparameter search completed
+2023-12-01 19:13:30,155:INFO:SubProcess create_model() called ==================================
+2023-12-01 19:13:30,155:INFO:Initializing create_model()
+2023-12-01 19:13:30,155:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000209ABEEFBB0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000209BB37AE80>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'class_weight': 'balanced', 'C': 5.233000000000001})
+2023-12-01 19:13:30,155:INFO:Checking exceptions
+2023-12-01 19:13:30,155:INFO:Importing libraries
+2023-12-01 19:13:30,155:INFO:Copying training dataset
+2023-12-01 19:13:30,155:INFO:Defining folds
+2023-12-01 19:13:30,155:INFO:Declaring metric variables
+2023-12-01 19:13:30,155:INFO:Importing untrained model
+2023-12-01 19:13:30,155:INFO:Declaring custom model
+2023-12-01 19:13:30,155:INFO:Logistic Regression Imported successfully
+2023-12-01 19:13:30,172:INFO:Starting cross validation
+2023-12-01 19:13:30,172:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-12-01 19:13:30,672:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:30,704:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:30,738:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:30,738:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:31,399:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:31,437:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:31,455:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:31,455:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:31,971:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:32,054:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:32,138:INFO:Calculating mean and std
+2023-12-01 19:13:32,138:INFO:Creating metrics dataframe
+2023-12-01 19:13:32,138:INFO:Finalizing model
+2023-12-01 19:13:32,438:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:32,438:INFO:Uploading results into container
+2023-12-01 19:13:32,438:INFO:Uploading model into container now
+2023-12-01 19:13:32,438:INFO:_master_model_container: 2
+2023-12-01 19:13:32,438:INFO:_display_container: 3
+2023-12-01 19:13:32,438:INFO:LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-12-01 19:13:32,438:INFO:create_model() successfully completed......................................
+2023-12-01 19:13:32,521:INFO:SubProcess create_model() end ==================================
+2023-12-01 19:13:32,521:INFO:choose_better activated
+2023-12-01 19:13:32,521:INFO:SubProcess create_model() called ==================================
+2023-12-01 19:13:32,521:INFO:Initializing create_model()
+2023-12-01 19:13:32,521:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000209ABEEFBB0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2023-12-01 19:13:32,521:INFO:Checking exceptions
+2023-12-01 19:13:32,521:INFO:Importing libraries
+2023-12-01 19:13:32,521:INFO:Copying training dataset
+2023-12-01 19:13:32,538:INFO:Defining folds
+2023-12-01 19:13:32,538:INFO:Declaring metric variables
+2023-12-01 19:13:32,538:INFO:Importing untrained model
+2023-12-01 19:13:32,538:INFO:Declaring custom model
+2023-12-01 19:13:32,538:INFO:Logistic Regression Imported successfully
+2023-12-01 19:13:32,538:INFO:Starting cross validation
+2023-12-01 19:13:32,538:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-12-01 19:13:33,038:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,054:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,054:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,104:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,671:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,671:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,687:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:33,737:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:34,404:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:34,420:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:34,554:INFO:Calculating mean and std
+2023-12-01 19:13:34,554:INFO:Creating metrics dataframe
+2023-12-01 19:13:34,554:INFO:Finalizing model
+2023-12-01 19:13:34,888:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:34,904:INFO:Uploading results into container
+2023-12-01 19:13:34,904:INFO:Uploading model into container now
+2023-12-01 19:13:34,904:INFO:_master_model_container: 3
+2023-12-01 19:13:34,904:INFO:_display_container: 4
+2023-12-01 19:13:34,904:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-12-01 19:13:34,904:INFO:create_model() successfully completed......................................
+2023-12-01 19:13:34,970:INFO:SubProcess create_model() end ==================================
+2023-12-01 19:13:34,970:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Custo is 0.9032
+2023-12-01 19:13:34,970:INFO:LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Custo is 0.8948
+2023-12-01 19:13:34,970:INFO:LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2023-12-01 19:13:34,970:INFO:choose_better completed
+2023-12-01 19:13:35,005:INFO:_master_model_container: 3
+2023-12-01 19:13:35,005:INFO:_display_container: 3
+2023-12-01 19:13:35,005:INFO:LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-12-01 19:13:35,005:INFO:tune_model() successfully completed......................................
+2023-12-01 19:13:35,070:INFO:Initializing finalize_model()
+2023-12-01 19:13:35,070:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000209ABEEFBB0>, estimator=LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2023-12-01 19:13:35,070:INFO:Finalizing LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-12-01 19:13:35,087:INFO:Initializing create_model()
+2023-12-01 19:13:35,087:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000209ABEEFBB0>, estimator=LogisticRegression(C=5.233000000000001, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=75, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2023-12-01 19:13:35,087:INFO:Checking exceptions
+2023-12-01 19:13:35,087:INFO:Importing libraries
+2023-12-01 19:13:35,087:INFO:Copying training dataset
+2023-12-01 19:13:35,087:INFO:Defining folds
+2023-12-01 19:13:35,087:INFO:Declaring metric variables
+2023-12-01 19:13:35,087:INFO:Importing untrained model
+2023-12-01 19:13:35,087:INFO:Declaring custom model
+2023-12-01 19:13:35,087:INFO:Logistic Regression Imported successfully
+2023-12-01 19:13:35,087:INFO:Cross validation set to False
+2023-12-01 19:13:35,087:INFO:Fitting Model
+2023-12-01 19:13:35,487:WARNING:C:\Users\Dell\anaconda3\envs\meu_env\lib\site-packages\sklearn\linear_model\_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-12-01 19:13:35,588:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empt...
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=75,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2023-12-01 19:13:35,588:INFO:create_model() successfully completed......................................
+2023-12-01 19:13:35,654:INFO:_master_model_container: 3
+2023-12-01 19:13:35,654:INFO:_display_container: 3
+2023-12-01 19:13:35,754:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empt...
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=75,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2023-12-01 19:13:35,754:INFO:finalize_model() successfully completed......................................
+2023-12-01 19:13:36,004:INFO:Initializing save_model()
+2023-12-01 19:13:36,004:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empt...
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=75,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False), model_name=modelo-previsao-heart-disease, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\Dell\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer(add_indicator=Fa...
+                                    include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-12-01 19:13:36,004:INFO:Adding model into prep_pipe
+2023-12-01 19:13:36,004:WARNING:Only Model saved as it was a pipeline.
+2023-12-01 19:13:36,020:INFO:modelo-previsao-heart-disease.pkl saved in current working directory
+2023-12-01 19:13:36,121:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empt...
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=75,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2023-12-01 19:13:36,121:INFO:save_model() successfully completed......................................
+2023-12-01 19:14:50,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:14:50,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:14:50,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:14:50,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 19:14:52,831:INFO:Initializing load_model()
+2023-12-01 19:14:52,832:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:54:38,805:INFO:Initializing load_model()
+2023-12-01 19:54:38,805:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:57:56,095:INFO:Initializing load_model()
+2023-12-01 19:57:56,095:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:58:04,778:INFO:Initializing load_model()
+2023-12-01 19:58:04,778:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:58:06,846:INFO:Initializing load_model()
+2023-12-01 19:58:06,846:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 19:59:05,726:INFO:Initializing load_model()
+2023-12-01 19:59:05,726:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:06:48,926:INFO:Initializing load_model()
+2023-12-01 20:06:48,926:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:10:40,806:INFO:Initializing load_model()
+2023-12-01 20:10:40,806:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:10:40,982:INFO:Initializing predict_model()
+2023-12-01 20:10:40,982:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CFB6262CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CFC2971430>)
+2023-12-01 20:10:40,982:INFO:Checking exceptions
+2023-12-01 20:10:40,982:INFO:Preloading libraries
+2023-12-01 20:10:40,983:INFO:Set up data.
+2023-12-01 20:10:40,990:INFO:Set up index.
+2023-12-01 20:15:22,259:INFO:Initializing load_model()
+2023-12-01 20:15:22,259:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:16:37,787:INFO:Initializing load_model()
+2023-12-01 20:16:37,788:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:16:56,346:INFO:Initializing load_model()
+2023-12-01 20:16:56,346:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:16:56,541:INFO:Initializing predict_model()
+2023-12-01 20:16:56,541:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CFB6BC24C0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CFB62CD3A0>)
+2023-12-01 20:16:56,541:INFO:Checking exceptions
+2023-12-01 20:16:56,541:INFO:Preloading libraries
+2023-12-01 20:16:56,541:INFO:Set up data.
+2023-12-01 20:16:56,552:INFO:Set up index.
+2023-12-01 20:17:19,126:INFO:Initializing load_model()
+2023-12-01 20:17:19,126:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:21,776:INFO:Initializing load_model()
+2023-12-01 20:17:21,776:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:21,961:INFO:Initializing predict_model()
+2023-12-01 20:17:21,961:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CFB6AD6B20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CFB69383A0>)
+2023-12-01 20:17:21,961:INFO:Checking exceptions
+2023-12-01 20:17:21,962:INFO:Preloading libraries
+2023-12-01 20:17:21,962:INFO:Set up data.
+2023-12-01 20:17:21,971:INFO:Set up index.
+2023-12-01 20:17:32,326:INFO:Initializing load_model()
+2023-12-01 20:17:32,326:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:32,518:INFO:Initializing load_model()
+2023-12-01 20:17:32,518:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:32,676:INFO:Initializing load_model()
+2023-12-01 20:17:32,676:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:34,295:INFO:Initializing load_model()
+2023-12-01 20:17:34,295:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:34,398:INFO:Initializing load_model()
+2023-12-01 20:17:34,398:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:42,071:INFO:Initializing load_model()
+2023-12-01 20:17:42,071:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:45,066:INFO:Initializing load_model()
+2023-12-01 20:17:45,066:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:17:45,263:INFO:Initializing predict_model()
+2023-12-01 20:17:45,264:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CFB6262DC0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CFB69383A0>)
+2023-12-01 20:17:45,264:INFO:Checking exceptions
+2023-12-01 20:17:45,264:INFO:Preloading libraries
+2023-12-01 20:17:45,265:INFO:Set up data.
+2023-12-01 20:17:45,275:INFO:Set up index.
+2023-12-01 20:17:58,633:INFO:Initializing load_model()
+2023-12-01 20:17:58,633:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:18:04,216:INFO:Initializing load_model()
+2023-12-01 20:18:04,216:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:18:05,846:INFO:Initializing load_model()
+2023-12-01 20:18:05,846:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:18:05,979:INFO:Initializing predict_model()
+2023-12-01 20:18:05,979:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CFC2957850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CFB6938DC0>)
+2023-12-01 20:18:05,979:INFO:Checking exceptions
+2023-12-01 20:18:05,979:INFO:Preloading libraries
+2023-12-01 20:18:05,979:INFO:Set up data.
+2023-12-01 20:18:05,986:INFO:Set up index.
+2023-12-01 20:18:18,116:INFO:Initializing load_model()
+2023-12-01 20:18:18,116:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:19:45,056:INFO:Initializing load_model()
+2023-12-01 20:19:45,056:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:21:02,386:INFO:Initializing load_model()
+2023-12-01 20:21:02,386:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:26:20,096:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 20:26:20,096:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 20:26:20,096:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 20:26:20,096:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-01 20:26:22,556:INFO:Initializing load_model()
+2023-12-01 20:26:22,556:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:27:25,691:INFO:Initializing load_model()
+2023-12-01 20:27:25,691:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:31:36,819:INFO:Initializing load_model()
+2023-12-01 20:31:36,819:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:32:11,427:INFO:Initializing load_model()
+2023-12-01 20:32:11,427:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:33:38,219:INFO:Initializing load_model()
+2023-12-01 20:33:38,219:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:37:46,566:INFO:Initializing load_model()
+2023-12-01 20:37:46,566:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:40:38,521:INFO:Initializing load_model()
+2023-12-01 20:40:38,521:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:42:01,051:INFO:Initializing load_model()
+2023-12-01 20:42:01,051:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:46:33,991:INFO:Initializing load_model()
+2023-12-01 20:46:33,996:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:47:18,733:INFO:Initializing load_model()
+2023-12-01 20:47:18,733:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:47:18,901:INFO:Initializing predict_model()
+2023-12-01 20:47:18,901:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD19DA220>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD19C5AF0>)
+2023-12-01 20:47:18,901:INFO:Checking exceptions
+2023-12-01 20:47:18,901:INFO:Preloading libraries
+2023-12-01 20:47:18,902:INFO:Set up data.
+2023-12-01 20:47:18,909:INFO:Set up index.
+2023-12-01 20:53:25,627:INFO:Initializing load_model()
+2023-12-01 20:53:25,627:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:53:31,797:INFO:Initializing load_model()
+2023-12-01 20:53:31,797:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:53:32,196:INFO:Initializing predict_model()
+2023-12-01 20:53:32,196:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD19DAE20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1A0F5E0>)
+2023-12-01 20:53:32,196:INFO:Checking exceptions
+2023-12-01 20:53:32,196:INFO:Preloading libraries
+2023-12-01 20:53:32,197:INFO:Set up data.
+2023-12-01 20:53:32,214:INFO:Set up index.
+2023-12-01 20:55:05,670:INFO:Initializing load_model()
+2023-12-01 20:55:05,670:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:55:11,057:INFO:Initializing load_model()
+2023-12-01 20:55:11,057:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:55:11,177:INFO:Initializing predict_model()
+2023-12-01 20:55:11,177:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A3B100>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1AB83A0>)
+2023-12-01 20:55:11,177:INFO:Checking exceptions
+2023-12-01 20:55:11,177:INFO:Preloading libraries
+2023-12-01 20:55:11,177:INFO:Set up data.
+2023-12-01 20:55:11,187:INFO:Set up index.
+2023-12-01 20:56:07,207:INFO:Initializing load_model()
+2023-12-01 20:56:07,207:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:56:12,477:INFO:Initializing load_model()
+2023-12-01 20:56:12,477:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:56:12,656:INFO:Initializing predict_model()
+2023-12-01 20:56:12,657:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD17CDFD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C03CA0>)
+2023-12-01 20:56:12,657:INFO:Checking exceptions
+2023-12-01 20:56:12,657:INFO:Preloading libraries
+2023-12-01 20:56:12,658:INFO:Set up data.
+2023-12-01 20:56:12,662:INFO:Set up index.
+2023-12-01 20:56:52,328:INFO:Initializing load_model()
+2023-12-01 20:56:52,328:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:56:58,257:INFO:Initializing load_model()
+2023-12-01 20:56:58,257:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:56:58,347:INFO:Initializing load_model()
+2023-12-01 20:56:58,347:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 20:56:58,507:INFO:Initializing predict_model()
+2023-12-01 20:56:58,507:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1C14430>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C03E50>)
+2023-12-01 20:56:58,507:INFO:Checking exceptions
+2023-12-01 20:56:58,508:INFO:Preloading libraries
+2023-12-01 20:56:58,509:INFO:Set up data.
+2023-12-01 20:56:58,516:INFO:Set up index.
+2023-12-01 21:06:14,744:INFO:Initializing load_model()
+2023-12-01 21:06:14,744:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:13:26,518:INFO:Initializing load_model()
+2023-12-01 21:13:26,518:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:15:03,492:INFO:Initializing load_model()
+2023-12-01 21:15:03,492:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:17:09,575:INFO:Initializing load_model()
+2023-12-01 21:17:09,575:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:17:21,479:INFO:Initializing load_model()
+2023-12-01 21:17:21,479:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:17:40,275:INFO:Initializing load_model()
+2023-12-01 21:17:40,275:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:17:40,453:INFO:Initializing predict_model()
+2023-12-01 21:17:40,453:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A3BFA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C03A60>)
+2023-12-01 21:17:40,454:INFO:Checking exceptions
+2023-12-01 21:17:40,454:INFO:Preloading libraries
+2023-12-01 21:17:40,454:INFO:Set up data.
+2023-12-01 21:17:40,459:INFO:Set up index.
+2023-12-01 21:18:53,958:INFO:Initializing load_model()
+2023-12-01 21:18:53,958:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:19:39,813:INFO:Initializing load_model()
+2023-12-01 21:19:39,813:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:28:31,137:INFO:Initializing load_model()
+2023-12-01 21:28:31,137:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:34:23,199:INFO:Initializing load_model()
+2023-12-01 21:34:23,199:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:43:22,642:INFO:Initializing load_model()
+2023-12-01 21:43:22,642:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:43:27,214:INFO:Initializing predict_model()
+2023-12-01 21:43:27,214:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A05070>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DC58B5F70>)
+2023-12-01 21:43:27,214:INFO:Checking exceptions
+2023-12-01 21:43:27,214:INFO:Preloading libraries
+2023-12-01 21:43:27,214:INFO:Set up data.
+2023-12-01 21:43:27,225:INFO:Set up index.
+2023-12-01 21:43:28,715:INFO:Initializing load_model()
+2023-12-01 21:43:28,715:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:43:37,885:INFO:Initializing predict_model()
+2023-12-01 21:43:37,885:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A051C0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C60DC0>)
+2023-12-01 21:43:37,885:INFO:Checking exceptions
+2023-12-01 21:43:37,885:INFO:Preloading libraries
+2023-12-01 21:43:37,890:INFO:Set up data.
+2023-12-01 21:43:37,898:INFO:Set up index.
+2023-12-01 21:43:39,550:INFO:Initializing load_model()
+2023-12-01 21:43:39,550:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:44:49,045:INFO:Initializing load_model()
+2023-12-01 21:44:49,045:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:44:52,674:INFO:Initializing predict_model()
+2023-12-01 21:44:52,674:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A064C0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C60940>)
+2023-12-01 21:44:52,674:INFO:Checking exceptions
+2023-12-01 21:44:52,674:INFO:Preloading libraries
+2023-12-01 21:44:52,674:INFO:Set up data.
+2023-12-01 21:44:52,685:INFO:Set up index.
+2023-12-01 21:44:54,135:INFO:Initializing load_model()
+2023-12-01 21:44:54,135:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:48:35,030:INFO:Initializing load_model()
+2023-12-01 21:48:35,030:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:48:38,933:INFO:Initializing predict_model()
+2023-12-01 21:48:38,934:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A52B20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DC5A3C310>)
+2023-12-01 21:48:38,934:INFO:Checking exceptions
+2023-12-01 21:48:38,935:INFO:Preloading libraries
+2023-12-01 21:48:38,936:INFO:Set up data.
+2023-12-01 21:48:38,945:INFO:Set up index.
+2023-12-01 21:48:40,536:INFO:Initializing load_model()
+2023-12-01 21:48:40,536:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:49:37,670:INFO:Initializing load_model()
+2023-12-01 21:49:37,670:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:49:40,776:INFO:Initializing predict_model()
+2023-12-01 21:49:40,776:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A47EB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DC5A3C430>)
+2023-12-01 21:49:40,776:INFO:Checking exceptions
+2023-12-01 21:49:40,776:INFO:Preloading libraries
+2023-12-01 21:49:40,777:INFO:Set up data.
+2023-12-01 21:49:40,787:INFO:Set up index.
+2023-12-01 21:49:42,270:INFO:Initializing load_model()
+2023-12-01 21:49:42,270:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:49:47,675:INFO:Initializing predict_model()
+2023-12-01 21:49:47,675:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD19DBFA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C67940>)
+2023-12-01 21:49:47,675:INFO:Checking exceptions
+2023-12-01 21:49:47,675:INFO:Preloading libraries
+2023-12-01 21:49:47,675:INFO:Set up data.
+2023-12-01 21:49:47,683:INFO:Set up index.
+2023-12-01 21:49:47,732:INFO:Initializing load_model()
+2023-12-01 21:49:47,733:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:49:49,190:INFO:Initializing load_model()
+2023-12-01 21:49:49,190:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:49:54,455:INFO:Initializing predict_model()
+2023-12-01 21:49:54,455:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD2C52880>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C67A60>)
+2023-12-01 21:49:54,455:INFO:Checking exceptions
+2023-12-01 21:49:54,455:INFO:Preloading libraries
+2023-12-01 21:49:54,455:INFO:Set up data.
+2023-12-01 21:49:54,465:INFO:Set up index.
+2023-12-01 21:49:56,155:INFO:Initializing load_model()
+2023-12-01 21:49:56,155:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:49:56,353:INFO:Initializing load_model()
+2023-12-01 21:49:56,353:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:50:06,827:INFO:Initializing predict_model()
+2023-12-01 21:50:06,827:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD2C52070>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD1C67A60>)
+2023-12-01 21:50:06,827:INFO:Checking exceptions
+2023-12-01 21:50:06,827:INFO:Preloading libraries
+2023-12-01 21:50:06,827:INFO:Set up data.
+2023-12-01 21:50:06,830:INFO:Set up index.
+2023-12-01 21:50:07,001:INFO:Initializing load_model()
+2023-12-01 21:50:07,001:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:50:08,510:INFO:Initializing load_model()
+2023-12-01 21:50:08,510:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:50:33,605:INFO:Initializing load_model()
+2023-12-01 21:50:33,605:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:52:03,055:INFO:Initializing load_model()
+2023-12-01 21:52:03,055:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:52:42,553:INFO:Initializing load_model()
+2023-12-01 21:52:42,553:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:58:32,010:INFO:Initializing load_model()
+2023-12-01 21:58:32,010:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 21:58:37,380:INFO:Initializing load_model()
+2023-12-01 21:58:37,380:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:00:40,210:INFO:Initializing load_model()
+2023-12-01 22:00:40,210:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:01:49,715:INFO:Initializing load_model()
+2023-12-01 22:01:49,715:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:01:50,870:INFO:Initializing load_model()
+2023-12-01 22:01:50,870:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:01:54,775:INFO:Initializing predict_model()
+2023-12-01 22:01:54,776:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1C14FD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DC58B5EE0>)
+2023-12-01 22:01:54,776:INFO:Checking exceptions
+2023-12-01 22:01:54,776:INFO:Preloading libraries
+2023-12-01 22:01:54,777:INFO:Set up data.
+2023-12-01 22:01:54,780:INFO:Set up index.
+2023-12-01 22:01:56,335:INFO:Initializing load_model()
+2023-12-01 22:01:56,335:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:03:59,271:INFO:Initializing load_model()
+2023-12-01 22:03:59,271:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:04:08,095:INFO:Initializing load_model()
+2023-12-01 22:04:08,095:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:05:46,040:INFO:Initializing load_model()
+2023-12-01 22:05:46,040:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:06:47,170:INFO:Initializing load_model()
+2023-12-01 22:06:47,170:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:06:55,135:INFO:Initializing load_model()
+2023-12-01 22:06:55,135:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:09:23,435:INFO:Initializing load_model()
+2023-12-01 22:09:23,435:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:11:03,805:INFO:Initializing load_model()
+2023-12-01 22:11:03,805:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:11:09,184:INFO:Initializing predict_model()
+2023-12-01 22:11:09,184:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DC5A3F6D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DC5B0F160>)
+2023-12-01 22:11:09,184:INFO:Checking exceptions
+2023-12-01 22:11:09,184:INFO:Preloading libraries
+2023-12-01 22:11:09,185:INFO:Set up data.
+2023-12-01 22:11:09,198:INFO:Set up index.
+2023-12-01 22:11:10,840:INFO:Initializing load_model()
+2023-12-01 22:11:10,840:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:13:47,210:INFO:Initializing load_model()
+2023-12-01 22:13:47,210:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:16:34,566:INFO:Initializing load_model()
+2023-12-01 22:16:34,566:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:17:10,810:INFO:Initializing load_model()
+2023-12-01 22:17:10,810:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:18:23,053:INFO:Initializing load_model()
+2023-12-01 22:18:23,053:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:22:31,152:INFO:Initializing load_model()
+2023-12-01 22:22:31,154:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:24:20,592:INFO:Initializing load_model()
+2023-12-01 22:24:20,592:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:27:11,126:INFO:Initializing predict_model()
+2023-12-01 22:27:11,126:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD2C94CA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD2CB6AF0>)
+2023-12-01 22:27:11,126:INFO:Checking exceptions
+2023-12-01 22:27:11,126:INFO:Preloading libraries
+2023-12-01 22:27:11,126:INFO:Set up data.
+2023-12-01 22:27:11,136:INFO:Set up index.
+2023-12-01 22:27:12,651:INFO:Initializing load_model()
+2023-12-01 22:27:12,651:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:27:22,396:INFO:Initializing load_model()
+2023-12-01 22:27:22,396:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:27:39,711:INFO:Initializing load_model()
+2023-12-01 22:27:39,711:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:27:41,049:INFO:Initializing load_model()
+2023-12-01 22:27:41,049:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:27:50,881:INFO:Initializing load_model()
+2023-12-01 22:27:50,881:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
+2023-12-01 22:27:54,811:INFO:Initializing predict_model()
+2023-12-01 22:27:54,811:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017DD1A47E20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting blood pressure',
+                                             'serum cholestoral in mg/dl',
+                                             'maximum heart rate achieved',
+                                             'oldpeak',
+                                             'resting electrocardiographic '
+                                             'results',
+                                             'number of major vessels',
+                                             'thal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'chest p...
+                 TransformerWrapper(include=['chest pain type',
+                                             'slope of peak'],
+                                    transformer=OneHotEncoder(cols=['chest '
+                                                                    'pain type',
+                                                                    'slope of '
+                                                                    'peak'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(C=5.233000000000001,
+                                    class_weight='balanced', max_iter=1000,
+                                    random_state=75))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DD2C96C10>)
+2023-12-01 22:27:54,811:INFO:Checking exceptions
+2023-12-01 22:27:54,811:INFO:Preloading libraries
+2023-12-01 22:27:54,816:INFO:Set up data.
+2023-12-01 22:27:54,822:INFO:Set up index.
+2023-12-01 22:27:56,561:INFO:Initializing load_model()
+2023-12-01 22:27:56,561:INFO:load_model(model_name=recursos/modelo-previsao-heart-disease, platform=None, authentication=None, verbose=True)
